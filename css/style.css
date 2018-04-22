@@ -1,0 +1,50 @@
+
+@media screen and (max-width: 767px) {
+  #my-name{
+    font-size: 28px;
+  }
+  h4{
+    font-size: 18px;
+  }
+  #logo{
+    max-width: 60px;
+    max-height: 60px;
+  }
+}
+@media screen and (max-width: 520px){
+  #my-name{
+    font-size: 26px;
+  }
+  h4{
+    font-size: 16px;
+  }
+
+
+}
+
+@media screen and (max-width: 450px){
+  #my-name{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 12px;
+  }
+
+}
+
+hr{
+  border-top: 5px solid #7d97ad;
+}
+
+
+#name{
+  width: 90%;
+}
+
+.no-wrap{
+  flex-wrap: nowrap;
+}
+
+.test{
+  min-width: 300px;
+}

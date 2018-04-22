@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
 
     <title></title>
@@ -12,24 +13,63 @@
     <div class="container">
       <!--  Header -->
       <header>
-        <h1>QUAN NGUYEN</h1>
-        <h3>Not so Full-stack yet</h3>
-
+        <div class="row no-wrap">
+          <div class="col-xs-2 col-md-2 col-lg-2">
+            <img src="http://via.placeholder.com/100x100" alt="placeholder image" id="logo" class="img-fluid">
+          </div>
+          <div class="col-xs-10 col-md-10 col-lg-10 text-right text-uppercase">
+            <h1 id="my-name">Quan Nguyen</h1>
+            <h4>Not Full-stack yet</h4>
+          </div>
+        </div>
       </header>
 
+      <hr>
       <!--  Content -->
       <main>
         <div class="row">
           <div class="col-md-12">
-            <img src="https://loremflickr.com/320/240" alt="placeholder image">
+            <img src="http://via.placeholder.com/1200x650" alt="placeholder image" class="img-fluid">
           </div>
         </div>
+
+        <br>
+        <!-- section featured works-->
+        <section>
+          <!-- section header-->
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Featured Work</h3>
+            </div>
+          </div>
+
+          <!-- featured work Contents-->
+          <div class="row text-center">
+            <div class="col-md-6 col-lg-4">
+              <img src="http://via.placeholder.com/350x150" alt="placeholder image" class="img-fluid">
+              <h4 class="text-uppercase">name</h4>
+              <p>https://loremflickr.com/320/240</p>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <img src="http://via.placeholder.com/350x150" alt="placeholder image" class="img-fluid">
+              <h4 class="text-uppercase">name 2</h4>
+              <p>https://loremflickr.com/320/240</p>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <img src="http://via.placeholder.com/350x150" alt="placeholder image" class="img-fluid">
+              <h4 class="text-uppercase">name3</h4>
+              <p>https://loremflickr.com/320/240</p>
+            </div>
+          </div>
+        </section>
       </main>
 
       <!--  Footer -->
       <footer>
-        
+
       </footer>
-    </div>
+
+    </div> <!-- end container -->
+
   </body>
 </html>
