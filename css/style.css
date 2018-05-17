@@ -13,8 +13,8 @@ h5{
   font-weight: 200;
 }
 
-p{
-  font-size: 14px;
+a{
+  font-size: 12px;
   font-weight: 200;
 }
 
@@ -85,10 +85,6 @@ hr{
   }
   h5#my-title{
     font-size: 0.6em;
-  }
-
-  p{
-    font-size: 12px;
   }
   #logo{
     max-width: 60px;
