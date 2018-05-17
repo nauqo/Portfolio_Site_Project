@@ -1,50 +1,97 @@
-
-@media screen and (max-width: 767px) {
-  #my-name{
-    font-size: 28px;
-  }
-  h4{
-    font-size: 18px;
-  }
-  #logo{
-    max-width: 60px;
-    max-height: 60px;
-  }
-}
-@media screen and (max-width: 520px){
-  #my-name{
-    font-size: 26px;
-  }
-  h4{
-    font-size: 16px;
-  }
-
-
+/* standard tags changes*/
+body{
+  background-color: #1b1b1b;
+  color: #c1c5cc;
 }
 
-@media screen and (max-width: 450px){
-  #my-name{
-    font-size: 20px;
-  }
-  h4{
-    font-size: 12px;
-  }
+h1,h3{
+  font-weight: 100;
+  color: #c7d4ea;
+}
 
+h5{
+  font-weight: 200;
+}
+
+p{
+  font-size: 14px;
+  font-weight: 200;
 }
 
 hr{
   border-top: 5px solid #7d97ad;
 }
 
-
-#name{
-  width: 90%;
+/* classes */
+.container{
+  background-color: #272727;
 }
 
 .no-wrap{
   flex-wrap: nowrap;
 }
 
-.test{
-  min-width: 300px;
+.proj-title{
+  color: #bac4d6;
+}
+
+/* responsiveness */
+@media screen and (max-width: 767px) {
+  h1#my-name{
+    font-size: 1.8em;
+  }
+  h3{
+    font-size: 1.35em;
+  }
+  h5#my-title{
+    font-size: 1.2em;
+  }
+  h5.proj-title{
+    font-size: 1em;
+  }
+  #logo{
+    max-width: 80px;
+    max-height: 80px;
+  }
+}
+
+@media screen and (max-width: 520px){
+  h1#my-name{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size: 1.25em;
+  }
+  h5#my-title{
+    font-size: 1em;
+
+  }
+  h5.proj-title{
+    font-size: 0.8em;
+  }
+  #logo{
+    max-width: 70px;
+    max-height: 70px;
+  }
+
+}
+
+@media screen and (max-width: 450px){
+  h1#my-name{
+    font-size: 1.1em;
+  }
+  h3{
+    font-size: 1em;
+  }
+  h5#my-title{
+    font-size: 0.6em;
+  }
+
+  p{
+    font-size: 12px;
+  }
+  #logo{
+    max-width: 60px;
+    max-height: 60px;
+  }
 }
